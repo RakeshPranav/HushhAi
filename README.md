@@ -102,10 +102,11 @@ The AI returns structured JSON:
   ]
 }
 ```
-###Project Structure
+### Project Structure
 
-##Backend
+## Backend
 
+```
 backend/
 │
 ├── main.py
@@ -127,9 +128,11 @@ backend/
 │
 ├── requirements.txt
 └── .env
+```
 
-##Frontend:
+## Frontend
 
+```
 frontend/
 │
 ├── src/
@@ -140,32 +143,39 @@ frontend/
 │
 ├── package.json
 └── tailwind.config.js
+```
 
-###🔄 Application Flow
+---
 
-Upload notes
-AI generates:
-   Summary
-   Repeated topics
-   Quiz
-Create classroom
-Share class code
-Students attempt quiz
-Leaderboard updates
+### 🔄 Application Flow
 
-###🚀 Future Enhancements
+- Upload notes  
+- AI generates:
+  - Summary  
+  - Repeated topics  
+  - Quiz  
+- Create classroom  
+- Share class code  
+- Students attempt quiz  
+- Leaderboard updates  
 
-PostgreSQL integration
-Weekly auto-generated quiz battles
-Performance analytics dashboard
-Adaptive difficulty quizzes
-Flashcard revision mode
-Shareable score card
-Real-time multiplayer mode
+---
 
-###📊 Success Metrics
+### 🚀 Future Enhancements
 
-Classrooms Created
-Active Participants
-Repeat Attempts
-Leaderboard Engagement
+- PostgreSQL integration  
+- Weekly auto-generated quiz battles  
+- Performance analytics dashboard  
+- Adaptive difficulty quizzes  
+- Flashcard revision mode  
+- Shareable score card  
+- Real-time multiplayer mode  
+
+---
+
+### 📊 Success Metrics
+
+- Classrooms Created  
+- Active Participants  
+- Repeat Attempts  
+- Leaderboard Engagement  
